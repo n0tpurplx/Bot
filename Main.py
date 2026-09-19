@@ -1039,4 +1039,4 @@ bot.setup_hook = setup_hook
 # ============================================================
 bot.run(TOKEN)
 
-The important bit is now the dispatch in on_message: authorized -vouches goes exclusively to the generator; everything else in those channels goes through the regular listener.
+# The important bit is now the dispatch in on_message: authorized -vouches goes exclusively to the generator; everything else in those channels goes through the regular listener.
